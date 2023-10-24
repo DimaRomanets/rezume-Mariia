@@ -5,6 +5,11 @@
      padding-bottom: 40px;
      padding-left: 40px;
      padding-right: 40px;
+
+ }
+
+ .link {
+     text-decoration: none;
  }
 
  .wrapper {
@@ -17,6 +22,8 @@
 
 
  }
+
+
 
  .list {
      list-style: none;
@@ -31,7 +38,7 @@
  /* Main content */
 
  .main-content {
-     padding-top: 88px;
+     padding-top: 30px;
      padding-bottom: 88px;
      padding-left: 88px;
      padding-right: 88px;
@@ -48,22 +55,28 @@
      margin: 0 0 18px 0;
  }
 
+ .span-name {
+     color: #e91e1e;
+ }
+
  .my-name {
      font-style: normal;
-     font-weight: 700;
-     font-size: 45px;
-     line-height: 55px;
+     font-weight: 900;
+     font-size: 60px;
+     line-height: 1.2;
      color: #000000;
-     margin: 0 0 28px 0;
+     margin-bottom: 5px;
+
  }
 
  .my-descr {
      font-style: normal;
      font-weight: 400;
-     font-size: 14px;
-     line-height: 24px;
+     font-size: 40px;
+     line-height: 1.7;
      color: #595959;
      width: 525px;
+     margin: 0;
  }
 
  .about-me-container {
@@ -79,9 +92,9 @@
  .main-content-title {
      font-style: normal;
      font-weight: 700;
-     font-size: 22px;
-     line-height: 27px;
-     color: #000000;
+     font-size: 40px;
+     line-height: 1.2;
+     color: #e91e1e;
      margin: 0 0 12px 0;
 
  }
@@ -100,7 +113,7 @@
  }
 
  .project-item-descr {
-     ont-style: normal;
+     font: normal;
      font-weight: 400;
      font-size: 14px;
      line-height: 24px;
@@ -124,10 +137,10 @@
 
  .work-experiens-position {
      font-style: normal;
-     font-weight: 700;
-     font-size: 16px;
-     line-height: 20px;
-     color: #000000;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 1.2;
+     color: #7d7979;
      margin: 0;
  }
 
@@ -141,22 +154,23 @@
 
  .work-period {
      font-style: normal;
-     font-weight: 400;
-     font-size: 12px;
-     line-height: 15px;
-     color: #A8A8A8;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 1.5;
+     color: #0d0b0b;
      margin: 12px 0 8px 0;
  }
 
  .work-period-position {
-     color: #000000;
+     font-weight: 400;
+     color: #7d7979;
  }
 
  .work-duties {
      font-style: normal;
      font-weight: 400;
-     font-size: 14px;
-     line-height: 24px;
+     font-size: 20px;
+     line-height: 1.7;
      color: #595959;
  }
 
@@ -210,16 +224,24 @@
  /* Sidebar */
 
  .sidebar {
-     width: 370px;
-     background: #b6dcf9;
+     width: 700px;
+     background: rgb(244, 89, 89);
 
  }
 
  .my-photo {
-   
-    border-radius: 20px;
-     margin-top: 15px;
+     object-fit: cover;
+     border-radius: 50%;
+     margin-top: 50px;
+     margin-left: 45px;
  }
+
+ .tech-skills-container {
+     width: 370px;
+ }
+
+
+
 
  .contacts-container,
  .tech-skills-container,
@@ -231,16 +253,25 @@
 
  }
 
- .languages{
-    margin-bottom: 40px;
+ .languages {
+     margin-bottom: 40px;
  }
- 
+
  .sidebar-title {
      font-style: normal;
      font-weight: 700;
-     font-size: 22px;
-     line-height: 27px;
-     color: #161D2A;
+     font-size: 25px;
+     line-height: 1.2;
+     color: white;
+     margin-bottom: 8px;
+ }
+
+ .text-sidebar {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 1.5;
+     color: white;
      margin-bottom: 8px;
  }
 
@@ -256,14 +287,20 @@
  }
 
  .contacts-item {
-     margin: 0;
+     margin: 0 0 10px 0;
+
+ }
+
+ .contacts-info {
+
+     margin-bottom: 40px;
  }
 
  .contacts-number {
      font-style: normal;
      font-weight: 400;
-     font-size: 14px;
-     line-height: 24px;
+     font-size: 20px;
+     line-height: 1.7;
      color: #161D2A;
 
  }
@@ -271,9 +308,18 @@
  .contacts-email {
      font-style: normal;
      font-weight: 400;
-     font-size: 14px;
-     line-height: 24px;
-     color: #2979FF;
+     font-size: 20px;
+     line-height: 1.7;
+     color: #161D2A;
+
+ }
+
+ .text-item {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 1.7;
+     color: #161D2A;
  }
 
  /* Tech skills */
@@ -285,7 +331,7 @@
  }
 
  .skills-list-item {
-    color: #0a57f3;
+     color: #0a57f3;
  }
 
  .skills-list-text {
@@ -304,13 +350,14 @@
  }
 
  .soft-skills-list-item {
-     color: #0a57f3;
+     color: white;
  }
 
  .soft-skills-list-text {
      font-style: normal;
      font-weight: 400;
-     font-size: 14px;
-     line-height: 24px;
-     color: #161D2A;
+     font-size: 18px;
+     line-height: 1.5;
+     color: white;
+     margin-bottom: 8px;
  }
